@@ -1,1 +1,19 @@
 /* Add your CSS code below */
+a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.message message--unread {
+  border-color: blue;
+}
+
+.message__content {
+  background: rgba(black, 0.5);
+}
+
+.message {
+  line-height: 200%;
+}
